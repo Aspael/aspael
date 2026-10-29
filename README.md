@@ -1,16 +1,66 @@
-## Hi there 👋
+<div align="center">
+  <img width="100%" alt="header wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:FF1001&height=110&section=header" />
+</div>
 
-<!--
-**Aspael/aspael** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- Banner da coruja (arquivo owl-banner.svg na raiz do repositório) -->
+<img width="2056" height="765" alt="image" src="https://github.com/user-attachments/assets/2265c91b-f686-4119-9dfc-678cd0f6523c" />
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- Texto animado -->
+<p align="center">
+  <a href="https://github.com/[your-username]">
+  </a>
+</p>
+
+<div align="center">
+  <a href="https://api.github-star-counter.workers.dev/user/[your-username]">
+    <img width="120px" alt="Stars" title="Stars Profile"
+        src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=0D1117&labelColor=FF1001&logoColor=ffffff&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/[your-username]" />
+  </a>
+  <a href="https://api.github-star-counter.workers.dev/user/[your-username]">
+    <img width="111px" alt="forks" title="Forks Repository"
+        src="https://custom-icon-badges.demolab.com/github/forks/[your-username]/[your-username]?color=0D1117&logo=fork&style=for-the-badge&logoColor=white&labelColor=FF1001" />
+  </a>
+  <a href="https://github.com/[your-username]?tab=followers">
+    <img width="150px" alt="Followers" title="Github Followers"
+        src="https://custom-icon-badges.herokuapp.com/github/followers/[your-username]?color=0D1117&labelColor=FF1001&style=for-the-badge&logo=person-add&label=Followers&logoColor=ffffff" />
+  </a>
+</div>
+<br>
+
+<!-- About me -->
+<div align="center">
+  <h3>🌙 Who is George?</h3>
+</div>
+
+<div align="justify">
+
+Hi! I'm **George**, graduated in **Systems Analysis and Development**. My journey in tech is driven by technical curiosity and the desire to build robust, scalable infrastructure. Right now, my main focus is the **Back-end Development** and **Data Engineering** ecosystem, where processing logic and data integrity are essential.
+
+I've been working on efficient APIs, system architecture, and data pipelines that turn raw information into valuable insights. I believe the foundation of any great application lies in a solid back-end and well-structured data.
+
+My experience ranges from relational and non-relational database modeling to implementing scalable services, always with a focus on **best practices**, **clean code**, and **operational efficiency**.
+
+Like an owl, I do my best work in the quiet of the night. 🦉
+
+</div>
+<br>
+
+<!-- Contact -->
+<div align="center">
+  <strong>🕶️ Connect with me</strong>
+  <br><br>
+  <a href="https://www.linkedin.com/in/george-lucas-leitao/" target="_blank">
+    <img width="120px" src="https://img.shields.io/badge/Linkedin-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF1001&labelColor=0D1117" alt="Linkedin"/>
+ 
+</div>
+<br>
+
+> [!Caution]
+> 💀 Code is never finished, it only gets better. What you see here is built with **practice**, **curiosity**, and **persistence**.
+
+
+<!-- Footer -->
+<div align="center">
+  <img width="100%" alt="footer wave" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:FF1001&height=100&section=footer" />
+</div>
