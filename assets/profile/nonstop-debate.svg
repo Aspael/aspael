@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280" role="img" aria-label="Nonstop Debate: 'The code is already finished!' — BREAK!!">
+  <style>
+    text { font-family: Impact, 'Arial Black', sans-serif; }
+    .stmt { font-size: 26px; fill: #FFFFFF; font-style: italic; letter-spacing: 1px; }
+    .weak { fill: #FF9F1C; }
+
+    .lines { animation: rush .6s linear infinite; }
+    @keyframes rush { from { transform: translateX(0); } to { transform: translateX(-120px); } }
+
+    .s1 { animation: s1 9s linear infinite; }
+    @keyframes s1 { 0% { transform: translateX(860px); } 50%, 100% { transform: translateX(-560px); } }
+    .s2 { animation: s2 9s linear infinite; }
+    @keyframes s2 { 0%, 6% { transform: translateX(-560px); } 56%, 100% { transform: translateX(860px); } }
+
+    .s3 { animation: s3 9s cubic-bezier(.2,.8,.2,1) infinite; }
+    @keyframes s3 {
+      0%, 18% { transform: translateX(860px); opacity: 1; }
+      36%, 60% { transform: translateX(0); opacity: 1; }
+      61% { transform: translateX(-12px) rotate(-2deg); opacity: 1; }
+      62% { transform: translateX(14px) rotate(2deg); opacity: 1; }
+      64%, 100% { transform: translateX(0); opacity: 0; }
+    }
+
+    .aim { animation: aim 9s infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes aim {
+      0%, 40% { opacity: 0; transform: scale(2.2) rotate(0deg); }
+      46% { opacity: 1; transform: scale(1) rotate(90deg); }
+      60% { opacity: 1; transform: scale(1) rotate(180deg); }
+      62%, 100% { opacity: 0; transform: scale(.4) rotate(220deg); }
+    }
+
+    .bullet { animation: shot 9s cubic-bezier(.7,0,.9,.6) infinite; }
+    @keyframes shot {
+      0%, 52% { transform: translateX(-260px); opacity: 0; }
+      53% { opacity: 1; }
+      60% { transform: translateX(320px); opacity: 1; }
+      61%, 100% { transform: translateX(320px); opacity: 0; }
+    }
+
+    .flash { animation: flash 9s infinite; }
+    @keyframes flash { 0%, 60% { opacity: 0; } 61% { opacity: .95; } 66%, 100% { opacity: 0; } }
+
+    .break { animation: brk 9s cubic-bezier(.2,1.6,.4,1) infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes brk {
+      0%, 61% { opacity: 0; transform: scale(3) rotate(-8deg); }
+      66% { opacity: 1; transform: scale(1) rotate(-8deg); }
+      68% { transform: translate(-6px, 4px) scale(1) rotate(-8deg); }
+      70% { transform: translate(6px, -4px) scale(1) rotate(-8deg); }
+      72%, 92% { opacity: 1; transform: scale(1) rotate(-8deg); }
+      98%, 100% { opacity: 0; transform: scale(1.1) rotate(-8deg); }
+    }
+    .shards { animation: shards 9s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes shards { 0%, 61% { opacity: 0; transform: scale(.2); } 64% { opacity: 1; } 80%, 100% { opacity: 0; transform: scale(1.8); } }
+
+    .hud { font-size: 15px; letter-spacing: 4px; fill: #0D0D0D; }
+    .hint { font: 700 11px 'Consolas', 'Courier New', monospace; fill: #FF2E88; letter-spacing: 2px; }
+  </style>
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#3A0A22"/>
+      <stop offset="1" stop-color="#0D0D0D"/>
+    </radialGradient>
+    <clipPath id="box"><rect width="840" height="280" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#box)">
+    <rect width="840" height="280" fill="url(#bg)"/>
+
+    <!-- speed lines -->
+    <g class="lines" stroke="#FF2E88" stroke-width="2" opacity=".18">
+      <line x1="0" y1="40" x2="140" y2="40"/><line x1="200" y1="62" x2="420" y2="62"/>
+      <line x1="480" y1="110" x2="620" y2="110"/><line x1="700" y1="180" x2="960" y2="180"/>
+      <line x1="60" y1="236" x2="300" y2="236"/><line x1="380" y1="256" x2="520" y2="256"/>
+      <line x1="560" y1="30" x2="800" y2="30"/><line x1="820" y1="90" x2="960" y2="90"/>
+      <line x1="120" y1="168" x2="220" y2="168"/><line x1="640" y1="226" x2="760" y2="226"/>
+    </g>
+
+    <!-- header -->
+    <g transform="skewX(-14)">
+      <rect x="36" y="14" width="250" height="30" fill="#FF2E88"/>
+    </g>
+    <text x="30" y="36" class="hud">NONSTOP DEBATE</text>
+    <text x="810" y="34" class="hint" text-anchor="end">LOADED: CLEAN CODE · TESTS · LOGS</text>
+
+    <!-- statements -->
+    <text x="0" y="88" class="stmt s1">"Back-end is just CRUD, anyone can do it..."</text>
+    <text x="0" y="226" class="stmt s2">"Data doesn't need validation, it's fine."</text>
+    <text x="150" y="156" class="stmt s3" style="font-size:32px">"The code is <tspan class="weak">already finished!</tspan>"</text>
+
+    <!-- crosshair over the weak point -->
+    <g transform="translate(480 145)"><g class="aim">
+      <circle r="34" fill="none" stroke="#FF2E88" stroke-width="3"/>
+      <circle r="20" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6 6"/>
+      <line x1="-46" y1="0" x2="-24" y2="0" stroke="#FF2E88" stroke-width="3"/>
+      <line x1="24" y1="0" x2="46" y2="0" stroke="#FF2E88" stroke-width="3"/>
+      <line x1="0" y1="-46" x2="0" y2="-24" stroke="#FF2E88" stroke-width="3"/>
+      <line x1="0" y1="24" x2="0" y2="46" stroke="#FF2E88" stroke-width="3"/>
+    </g>
+    </g>
+
+    <!-- truth bullet -->
+    <g class="bullet" transform="translate(0 0)">
+      <g transform="translate(0 132)">
+        <path d="M0,0 L120,0 Q148,0 160,13 Q148,26 120,26 L0,26 Z" fill="#FFD400"/>
+        <rect width="22" height="26" fill="#FF2E88"/>
+        <text x="30" y="19" style="font-size:14px;fill:#0D0D0D;letter-spacing:1px">CLEAN CODE</text>
+        <rect x="-220" y="10" width="220" height="6" fill="#FFD400" opacity=".5"/>
+      </g>
+    </g>
+
+    <rect class="flash" width="840" height="280" fill="#FFFFFF"/>
+
+    <!-- shards -->
+    <g transform="translate(480 145)"><g class="shards" fill="#FF2E88">
+      <polygon points="0,-10 60,-70 20,-4"/><polygon points="8,6 90,40 10,14"/>
+      <polygon points="-10,4 -80,50 -14,-2"/><polygon points="-6,-8 -50,-90 2,-12"/>
+      <polygon points="12,-2 120,-20 14,4" fill="#FFFFFF"/><polygon points="-12,2 -130,10 -12,-4" fill="#FFFFFF"/>
+    </g>
+    </g>
+
+    <!-- BREAK!! -->
+    <g class="break">
+      <text x="420" y="172" text-anchor="middle" style="font-size:96px;letter-spacing:6px;fill:#0D0D0D;stroke:#0D0D0D;stroke-width:16px;stroke-linejoin:round">BREAK!!</text>
+      <text x="420" y="172" text-anchor="middle" style="font-size:96px;letter-spacing:6px;fill:#FF2E88;stroke:#FFFFFF;stroke-width:4px">BREAK!!</text>
+    </g>
+
+    <rect x="1.5" y="1.5" width="837" height="277" rx="13" fill="none" stroke="#FF2E88" stroke-width="3"/>
+  </g>
+</svg>

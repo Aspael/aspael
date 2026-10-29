@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" role="img" aria-label="George Lucas — Ultimate Back-end Developer">
+  <style>
+    .stripes { animation: slide 6s linear infinite; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-80px); } }
+
+    .name { font: 900 64px Impact, 'Arial Black', 'Helvetica Neue', sans-serif; letter-spacing: 2px; }
+    .ghost { fill: #FF2E88; animation: glitch 3s steps(1) infinite; }
+    .ghost2 { fill: #00E5FF; opacity: .55; animation: glitch2 3s steps(1) infinite; }
+    @keyframes glitch {
+      0%, 86%, 100% { transform: translate(5px, 4px); }
+      88% { transform: translate(-6px, 2px); }
+      90% { transform: translate(9px, -3px); }
+      92% { transform: translate(-3px, 5px); }
+    }
+    @keyframes glitch2 {
+      0%, 86%, 100% { transform: translate(0, 0); opacity: 0; }
+      88% { transform: translate(7px, -2px); opacity: .6; }
+      90% { transform: translate(-8px, 3px); opacity: .6; }
+      92% { transform: translate(4px, -4px); opacity: .6; }
+    }
+
+    .tag { animation: tagIn 6s cubic-bezier(.2,.9,.2,1) infinite; transform-box: fill-box; transform-origin: left center; }
+    @keyframes tagIn {
+      0% { transform: scaleX(0); }
+      10%, 92% { transform: scaleX(1); }
+      100% { transform: scaleX(0); }
+    }
+    .tagtext { font: 700 17px 'Arial Black', Impact, sans-serif; letter-spacing: 3px; fill: #0D0D0D; animation: fadeIn 6s infinite; }
+    .jp { font: 700 15px 'Yu Gothic', 'Meiryo', 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #FF2E88; letter-spacing: 2px; animation: fadeIn 6s infinite; }
+    @keyframes fadeIn { 0%, 10% { opacity: 0; } 16%, 90% { opacity: 1; } 100% { opacity: 0; } }
+
+    .eye { animation: blink 4s infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes blink { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(.1); } }
+    .bear { animation: bob 2.4s ease-in-out infinite; }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+
+    .scan { animation: scan 3.5s linear infinite; }
+    @keyframes scan { from { transform: translateY(-20px); } to { transform: translateY(260px); } }
+  </style>
+
+  <defs>
+    <pattern id="diag" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+      <rect width="40" height="40" fill="#0D0D0D"/>
+      <rect width="14" height="40" fill="#1A0A12"/>
+    </pattern>
+    <clipPath id="card"><rect x="0" y="0" width="840" height="240" rx="14"/></clipPath>
+    <clipPath id="left"><rect x="660" y="30" width="80" height="200"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="840" height="240" fill="#0D0D0D"/>
+    <g class="stripes"><rect x="-80" y="-80" width="1100" height="400" fill="url(#diag)"/></g>
+
+    <!-- pink slash -->
+    <polygon points="0,182 840,120 840,150 0,212" fill="#FF2E88" opacity=".18"/>
+    <polygon points="0,200 840,140 840,146 0,206" fill="#FF2E88"/>
+
+    <!-- scanline -->
+    <rect class="scan" x="0" y="0" width="840" height="3" fill="#FF2E88" opacity=".25"/>
+
+    <!-- name -->
+    <text x="40" y="104" class="name ghost2">GEORGE LUCAS</text>
+    <text x="40" y="104" class="name ghost">GEORGE LUCAS</text>
+    <text x="40" y="104" class="name" fill="#FFFFFF">GEORGE LUCAS</text>
+
+    <!-- talent tag -->
+    <g transform="skewX(-12)">
+      <rect class="tag" x="62" y="122" width="455" height="34" fill="#FF2E88"/>
+    </g>
+    <text x="48" y="146" class="tagtext">ULTIMATE BACK-END DEVELOPER</text>
+    <text x="42" y="182" class="jp">超高校級の「バックエンド開発者」</text>
+
+    <!-- Monokuma-ish bear -->
+    <g transform="translate(700 125)"><g class="bear">
+      <!-- ears -->
+      <circle cx="-48" cy="-56" r="20" fill="#FFFFFF"/>
+      <circle cx="48" cy="-56" r="20" fill="#1C1C1C" stroke="#FFFFFF" stroke-width="3"/>
+      <!-- head: white half + black half -->
+      <circle r="70" fill="#FFFFFF"/>
+      <path d="M0,-70 A70,70 0 0 1 0,70 Z" fill="#1C1C1C"/>
+      <circle r="70" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+      <!-- left eye (white side) -->
+      <ellipse class="eye" cx="-26" cy="-12" rx="7" ry="9" fill="#0D0D0D"/>
+      <!-- right eye: jagged red -->
+      <path d="M8,-4 L22,-30 L28,-14 L40,-34 L46,-12 L56,-26 L50,4 Z" fill="#FF1744"/>
+      <!-- muzzle -->
+      <ellipse cx="0" cy="22" rx="30" ry="22" fill="#FFFFFF"/>
+      <ellipse cx="0" cy="10" rx="9" ry="6" fill="#0D0D0D"/>
+      <!-- grin -->
+      <path d="M0,24 Q16,40 30,22" stroke="#0D0D0D" stroke-width="3" fill="#0D0D0D"/>
+      <path d="M4,26 L8,32 L12,27 L16,33 L20,27 L24,31 L27,25" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+      <path d="M0,24 Q-14,34 -26,22" stroke="#0D0D0D" stroke-width="3" fill="none"/>
+    </g>
+    </g>
+
+    <rect x="1.5" y="1.5" width="837" height="237" rx="13" fill="none" stroke="#FF2E88" stroke-width="3"/>
+  </g>
+</svg>
