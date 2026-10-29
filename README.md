@@ -53,7 +53,7 @@ Like an owl, I do my best work in the quiet of the night.
 <br>
 
 > [!Caution]
-> 💀 Code is never finished, it only gets better. What you see here is built with **practice**, **curiosity**, and **persistence**.
+>  Code is never finished, it only gets better. What you see here is built with **practice**, **curiosity**, and **persistence**.
 
 
 <!-- Footer -->
