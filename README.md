@@ -28,10 +28,6 @@
 </div>
 <br>
 
-<!-- About me -->
-<div align="center">
-  <h3>🌙 Who is George?</h3>
-</div>
 
 <div align="justify">
 
@@ -41,14 +37,14 @@ I've been working on efficient APIs, system architecture, and data pipelines tha
 
 My experience ranges from relational and non-relational database modeling to implementing scalable services, always with a focus on **best practices**, **clean code**, and **operational efficiency**.
 
-Like an owl, I do my best work in the quiet of the night. 🦉
+Like an owl, I do my best work in the quiet of the night. 
 
 </div>
 <br>
 
 <!-- Contact -->
 <div align="center">
-  <strong>🕶️ Connect with me</strong>
+  <strong> Connect with me</strong>
   <br><br>
   <a href="https://www.linkedin.com/in/george-lucas-leitao/" target="_blank">
     <img width="120px" src="https://img.shields.io/badge/Linkedin-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF1001&labelColor=0D1117" alt="Linkedin"/>
