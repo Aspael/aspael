@@ -3,7 +3,7 @@
 </div>
 
 <!-- Banner da coruja (arquivo owl-banner.svg na raiz do repositório) -->
-<img width="2056" height="765" alt="image" src="https://github.com/user-attachments/assets/2265c91b-f686-4119-9dfc-678cd0f6523c" />
+<img width="2056" height="765" alt="image" src="https://github.com/user-attachments/assets/259d5100-034a-4cf7-b6e5-a1c30b4ae764" />
 
 
 <!-- Texto animado -->
