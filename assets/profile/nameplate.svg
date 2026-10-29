@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" role="img" aria-label="George Lucas — Ultimate Back-end Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" role="img" aria-label="George Lucas — Ultimate AI Developer">
   <style>
     .stripes { animation: slide 6s linear infinite; }
     @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-80px); } }
@@ -65,10 +65,10 @@
 
     <!-- talent tag -->
     <g transform="skewX(-12)">
-      <rect class="tag" x="62" y="122" width="455" height="34" fill="#FF2E88"/>
+      <rect class="tag" x="62" y="122" width="365" height="34" fill="#FF2E88"/>
     </g>
-    <text x="48" y="146" class="tagtext">ULTIMATE BACK-END DEVELOPER</text>
-    <text x="42" y="182" class="jp">超高校級の「バックエンド開発者」</text>
+    <text x="48" y="146" class="tagtext">ULTIMATE AI DEVELOPER</text>
+    <text x="42" y="182" class="jp">超高校級の「AI開発者」</text>
 
     <!-- Monokuma-ish bear -->
     <g transform="translate(700 125)"><g class="bear">

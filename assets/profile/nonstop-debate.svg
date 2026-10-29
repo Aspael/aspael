@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280" role="img" aria-label="Nonstop Debate: 'The code is already finished!' — BREAK!!">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280" role="img" aria-label="Nonstop Debate: 'The model never hallucinates!' — BREAK!!">
   <style>
     text { font-family: Impact, 'Arial Black', sans-serif; }
     .stmt { font-size: 26px; fill: #FFFFFF; font-style: italic; letter-spacing: 1px; }
@@ -81,12 +81,12 @@
       <rect x="36" y="14" width="250" height="30" fill="#FF2E88"/>
     </g>
     <text x="30" y="36" class="hud">NONSTOP DEBATE</text>
-    <text x="810" y="34" class="hint" text-anchor="end">LOADED: CLEAN CODE · TESTS · LOGS</text>
+    <text x="810" y="34" class="hint" text-anchor="end">LOADED: EVALS · RAG · GUARDRAILS</text>
 
     <!-- statements -->
-    <text x="0" y="88" class="stmt s1">"Back-end is just CRUD, anyone can do it..."</text>
-    <text x="0" y="226" class="stmt s2">"Data doesn't need validation, it's fine."</text>
-    <text x="150" y="156" class="stmt s3" style="font-size:32px">"The code is <tspan class="weak">already finished!</tspan>"</text>
+    <text x="0" y="88" class="stmt s1">"AI is just autocomplete, anyone can do it..."</text>
+    <text x="0" y="226" class="stmt s2">"Just trust the LLM output, no evals needed."</text>
+    <text x="150" y="156" class="stmt s3" style="font-size:32px">"The model <tspan class="weak">never hallucinates!</tspan>"</text>
 
     <!-- crosshair over the weak point -->
     <g transform="translate(480 145)"><g class="aim">
@@ -104,7 +104,7 @@
       <g transform="translate(0 132)">
         <path d="M0,0 L120,0 Q148,0 160,13 Q148,26 120,26 L0,26 Z" fill="#FFD400"/>
         <rect width="22" height="26" fill="#FF2E88"/>
-        <text x="30" y="19" style="font-size:14px;fill:#0D0D0D;letter-spacing:1px">CLEAN CODE</text>
+        <text x="30" y="19" style="font-size:14px;fill:#0D0D0D;letter-spacing:1px">EVALS</text>
         <rect x="-220" y="10" width="220" height="6" fill="#FFD400" opacity=".5"/>
       </g>
     </g>

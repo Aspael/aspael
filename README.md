@@ -12,10 +12,10 @@
   <img src="./assets/gifs/monokuma-city.gif" width="100%" alt="Monokumas dancing in a red city" />
 </div>
 
-<p align="center"><img src="./assets/profile/nameplate.svg" width="840" alt="George Lucas — Ultimate Back-end Developer" /></p>
+<p align="center"><img src="./assets/profile/nameplate.svg" width="840" alt="George Lucas — Ultimate AI Developer" /></p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Bebas+Neue&size=28&duration=2800&pause=900&color=FF2E88&center=true&vCenter=true&width=780&lines=Ultimate+Back-end+Developer;Ultimate+Data+Engineer;Puhuhu...+Let+the+Class+Trial+begin!;Your+argument+has+a+bug.+I'll+shoot+it+down!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Bebas+Neue&size=28&duration=2800&pause=900&color=FF2E88&center=true&vCenter=true&width=780&lines=Ultimate+AI+Developer;LLMs%2C+agents+and+RAG;Puhuhu...+Let+the+Class+Trial+begin!;Your+argument+has+a+bug.+I'll+shoot+it+down!" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -38,17 +38,17 @@
 <table align="center">
   <tr>
     <td width="300" align="center">
-      <img src="./assets/gifs/monokuma-smile.gif" width="280" alt="Monokuma smiling" />
+      <img src="./assets/gifs/makoto-naegi.gif" width="280" alt="Makoto Naegi" />
     </td>
     <td width="520">
 
 | | |
 |---|---|
 | **Name** | George Lucas |
-| **Ultimate Talent** | 超高校級の **Back-end Developer** |
+| **Ultimate Talent** | 超高校級の **AI Developer** |
 | **Class** | Systems Analysis & Development |
-| **Likes** | Clean APIs, solid schemas, quiet nights |
-| **Dislikes** | N+1 queries, untested pipelines, `SELECT *` |
+| **Likes** | Well-crafted prompts, grounded answers, quiet nights |
+| **Dislikes** | Hallucinations, unevaluated models, context overflow |
 | **Night Owl Rank** | ★★★★★ |
 
 </td>
@@ -57,11 +57,11 @@
 
 <div align="justify">
 
-Hi! I'm **George**, graduated in **Systems Analysis and Development**. My journey in tech is driven by technical curiosity and the desire to build robust, scalable infrastructure. Right now, my main focus is the **Back-end Development** and **Data Engineering** ecosystem, where processing logic and data integrity are essential.
+Hi! I'm **George**, graduated in **Systems Analysis and Development**. My journey in tech is driven by technical curiosity and the desire to build software that can think alongside people. Right now, my main focus is **AI Development** and the **LLM** ecosystem, where reasoning, context, and reliability are essential.
 
-I've been working on efficient APIs, system architecture, and data pipelines that turn raw information into valuable insights. I believe the foundation of any great application lies in a solid back-end and well-structured data.
+I've been working on LLM-powered applications, AI agents, RAG pipelines, and prompt and context engineering that turn raw models into useful, trustworthy tools. I believe a great AI product is not just a clever model, but solid engineering around it: good data, clear evaluation, and careful integration.
 
-My experience ranges from relational and non-relational database modeling to implementing scalable services, always with a focus on **best practices**, **clean code**, and **operational efficiency**.
+My experience ranges from integrating LLM APIs and building retrieval with vector databases to orchestrating agents and serving models behind scalable services, always with a focus on **best practices**, **clean code**, and **evaluations before confidence**.
 
 Like an owl, I do my best work in the quiet of the night. 🦉
 
@@ -69,10 +69,10 @@ Like an owl, I do my best work in the quiet of the night. 🦉
 
 ```ts
 const george = {
-  ultimateTalent: "Back-end Developer",
-  focus: ["APIs", "system architecture", "data pipelines", "database modeling"],
-  weapon: "truth bullets (a.k.a. logs, tests and metrics)",
-  motto: "Hope is a well-structured database.",
+  ultimateTalent: "AI Developer",
+  focus: ["LLM applications", "AI agents", "RAG", "prompt & context engineering"],
+  weapon: "truth bullets (a.k.a. evals, traces and benchmarks)",
+  motto: "Hope is a model that knows when it doesn't know.",
   activeHours: "when Monokuma's night-time announcement plays",
 };
 ```
@@ -84,7 +84,7 @@ const george = {
 <a id="debate"></a>
 <h3 align="center">☾ Nonstop Debate</h3>
 
-<p align="center"><img src="./assets/profile/nonstop-debate.svg" width="840" alt="Nonstop Debate: 'The code is already finished!' shot down with a Truth Bullet — BREAK!!" /></p>
+<p align="center"><img src="./assets/profile/nonstop-debate.svg" width="840" alt="Nonstop Debate: 'The model never hallucinates!' shot down with a Truth Bullet — BREAK!!" /></p>
 
 <table align="center">
   <tr>
@@ -111,25 +111,27 @@ const george = {
 
 <div align="center">
 
-**Back-end**
+**AI & LLMs**
 <br>
 <img src="https://img.shields.io/badge/Python-FF2E88?style=flat&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-0D0D0D?style=flat&logo=node.js&logoColor=FF2E88" />
-<img src="https://img.shields.io/badge/REST_APIs-FF2E88?style=flat&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/LLMs-0D0D0D?style=flat&logo=openai&logoColor=FF2E88" />
+<img src="https://img.shields.io/badge/AI_Agents-FF2E88?style=flat&logo=robotframework&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG-0D0D0D?style=flat&logo=readthedocs&logoColor=FF2E88" />
+<img src="https://img.shields.io/badge/Prompt_Engineering-FF2E88?style=flat&logo=gitbook&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-0D0D0D?style=flat&logo=langchain&logoColor=FF2E88" />
+<img src="https://img.shields.io/badge/Hugging_Face-FF2E88?style=flat&logo=huggingface&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-0D0D0D?style=flat&logo=pytorch&logoColor=FF2E88" />
+
+<br>
+
+**Serving & Tooling**
+<br>
+<img src="https://img.shields.io/badge/FastAPI-FF2E88?style=flat&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Vector_DBs-0D0D0D?style=flat&logo=databricks&logoColor=FF2E88" />
+<img src="https://img.shields.io/badge/Jupyter-FF2E88?style=flat&logo=jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-0D0D0D?style=flat&logo=docker&logoColor=FF2E88" />
-<img src="https://img.shields.io/badge/Linux-FF2E88?style=flat&logo=linux&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-0D0D0D?style=flat&logo=git&logoColor=FF2E88" />
-
-<br>
-
-**Data**
-<br>
-<img src="https://img.shields.io/badge/SQL-FF2E88?style=flat&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-0D0D0D?style=flat&logo=postgresql&logoColor=FF2E88" />
-<img src="https://img.shields.io/badge/MySQL-FF2E88?style=flat&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-0D0D0D?style=flat&logo=mongodb&logoColor=FF2E88" />
-<img src="https://img.shields.io/badge/Pandas-FF2E88?style=flat&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Data_Pipelines-0D0D0D?style=flat&logo=apacheairflow&logoColor=FF2E88" />
+<img src="https://img.shields.io/badge/Git-FF2E88?style=flat&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-0D0D0D?style=flat&logo=linux&logoColor=FF2E88" />
 
 </div>
 
@@ -142,7 +144,10 @@ const george = {
 <p align="center"><sub>The Monokuma File has been updated.</sub></p>
 
 <div align="center">
-  <img src="./assets/gifs/monokuma-throne.gif" width="420" alt="Monokuma on his throne" />
+  <img src="./assets/gifs/monokuma-throne.gif" height="230" alt="Monokuma on his throne" />
+  <img src="./assets/gifs/junko-monokuma.gif" height="230" alt="Junko Enoshima holding Monokuma" />
+  <br>
+  <sub><i>The mastermind is always watching your commits.</i></sub>
   <br><br>
   <img src="https://count.getloli.com/get/@Aspael?theme=moebooru" alt="Moe Counter" />
   <br><br>
@@ -164,12 +169,22 @@ const george = {
 
 <h3 align="center">♡ Hope vs. Despair</h3>
 
-<div align="center">
-  <img src="./assets/gifs/nagito-hope.gif" width="48%" alt="Nagito — hope" />
-  <img src="./assets/gifs/despair-glitch.gif" width="48%" alt="Despair glitch" />
-  <br>
-  <sub><i>"Hope is a scalable back-end. Despair is a production deploy on Friday."</i></sub>
-</div>
+<table align="center">
+  <tr>
+    <th width="420">✦ HOPE</th>
+    <th width="420">✦ DESPAIR</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/gifs/nagito-hope.gif" width="400" alt="Nagito Komaeda — hope" /></td>
+    <td align="center"><img src="./assets/gifs/junko-despair.gif" width="400" alt="Junko Enoshima — despair" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/gifs/makoto-shocked.gif" width="400" alt="Makoto Naegi shocked" /><br><sub>Me reading the model's output in production...</sub></td>
+    <td align="center"><img src="./assets/gifs/despair-glitch.gif" width="400" alt="Despair glitch" /><br><sub>...and finding a confident hallucination.</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub><i>"Hope is a model grounded in good context. Despair is a confident hallucination in production."</i></sub></p>
 
 <br>
 <p align="center"><img src="./assets/profile/divider.svg" width="840" alt="" /></p>
