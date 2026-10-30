@@ -21,7 +21,7 @@
 
 <div align="center">
   <a href="https://github.com/Aspael?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/Aspael?label=Students&style=for-the-badge&logo=github&logoColor=white&color=FF2E88&labelColor=0D0D0D" />
+    <img alt="Followers" src="https://img.shields.io/github/followers/Aspael?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=FF2E88&labelColor=0D0D0D" />
   </a>
   <a href="https://github.com/Aspael?tab=repositories">
     <img alt="Stars" src="https://img.shields.io/github/stars/Aspael?label=Hope&style=for-the-badge&logo=starship&logoColor=white&color=FF2E88&labelColor=0D0D0D" />
@@ -236,9 +236,9 @@ const george = {
 <br>
 
 <div align="center">
-  <img src="./assets/gifs/monokuma-laugh.gif" width="360" alt="Monokuma laughing" />
+  <img src="./assets/gifs/chiaki-nanami.gif" width="360" alt="Chiaki Nanami smiling" />
   <br>
-  <sub><b>Upupupu... thanks for visiting. Don't forget: the night-time rule is in effect.</b></sub>
+  <sub><b>Thanks for visiting... let's play again sometime, okay?</b></sub>
 </div>
 
 <br>
