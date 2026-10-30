@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 <div align="center">
-  <a href="#profile"><img src="https://img.shields.io/badge/student_profile-FF2E88?style=flat&labelColor=0D0D0D" /></a>
+  <a href="#profile"><img src="https://img.shields.io/badge/developer_profile-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#debate"><img src="https://img.shields.io/badge/nonstop_debate-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#bullets"><img src="https://img.shields.io/badge/truth_bullets-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#trial"><img src="https://img.shields.io/badge/class_trial-FF2E88?style=flat&labelColor=0D0D0D" /></a>
