@@ -4,6 +4,7 @@
   <a href="#profile"><img src="https://img.shields.io/badge/developer_profile-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#debate"><img src="https://img.shields.io/badge/nonstop_debate-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#bullets"><img src="https://img.shields.io/badge/truth_bullets-FF2E88?style=flat&labelColor=0D0D0D" /></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/my_projects-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#trial"><img src="https://img.shields.io/badge/class_trial-FF2E88?style=flat&labelColor=0D0D0D" /></a>
   <a href="#contact"><img src="https://img.shields.io/badge/contact-FF2E88?style=flat&labelColor=0D0D0D" /></a>
 </div>
@@ -133,6 +134,36 @@ const george = {
 <img src="https://img.shields.io/badge/Git-FF2E88?style=flat&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-0D0D0D?style=flat&logo=linux&logoColor=FF2E88" />
 
+</div>
+
+<br>
+<p align="center"><img src="./assets/profile/divider.svg" width="840" alt="" /></p>
+<br>
+
+<a id="projects"></a>
+<h3 align="center">✦ My Projects</h3>
+<p align="center"><sub>Case files from the investigation. Click a Truth Bullet to open the repository.</sub></p>
+
+<div align="center">
+  <a href="https://github.com/Aspael/Bookmarkk" target="_blank"><img src="./assets/projects/bookmarkk.svg" width="410" alt="Bookmarkk" /></a>
+  <a href="https://github.com/Aspael/rpa-portal-transparencia" target="_blank"><img src="./assets/projects/rpa-portal-transparencia.svg" width="410" alt="RPA Portal Transparência" /></a>
+  <br>
+  <a href="https://github.com/Aspael/between-them-entre-eles-" target="_blank"><img src="./assets/projects/between-them.svg" width="410" alt="Between Them" /></a>
+  <a href="https://github.com/Aspael/DATA-VALIDATION-API" target="_blank"><img src="./assets/projects/data-validation-api.svg" width="410" alt="Data Validation API" /></a>
+  <br>
+  <a href="https://github.com/Aspael/web-doctor" target="_blank"><img src="./assets/projects/web-doctor.svg" width="410" alt="Web Doctor" /></a>
+  <a href="https://github.com/Aspael/DETECTOR_PHISHING" target="_blank"><img src="./assets/projects/detector-phishing.svg" width="410" alt="Phishing Detector" /></a>
+  <br>
+  <a href="https://github.com/Aspael/NEAR-ml-etl" target="_blank"><img src="./assets/projects/near-ml-etl.svg" width="410" alt="NEAR ML ETL" /></a>
+  <a href="https://github.com/Aspael/NOTA-FISCAL_AUTOMA-O" target="_blank"><img src="./assets/projects/nota-fiscal.svg" width="410" alt="Nota Fiscal Automation" /></a>
+  <br>
+  <a href="https://github.com/Aspael/repo-testers" target="_blank"><img src="./assets/projects/repo-testers.svg" width="410" alt="Repo Testers" /></a>
+  <a href="https://github.com/Aspael/enem_bahia_analise-de-dados" target="_blank"><img src="./assets/projects/enem-bahia.svg" width="410" alt="ENEM Bahia Analysis" /></a>
+  <br>
+  <a href="https://github.com/Aspael/GrammatikLint" target="_blank"><img src="./assets/projects/grammatiklint.svg" width="410" alt="GrammatikLint" /></a>
+  <a href="https://github.com/Aspael/SOLID" target="_blank"><img src="./assets/projects/solid.svg" width="410" alt="SOLID" /></a>
+  <br>
+  <a href="https://github.com/Aspael?tab=repositories" target="_blank"><img src="./assets/projects/all-repos.svg" width="410" alt="All repositories" /></a>
 </div>
 
 <br>

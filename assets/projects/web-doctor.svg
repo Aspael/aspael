@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="84" viewBox="0 0 410 84" role="img" aria-label="WEB DOCTOR — CLI that scores HTML/CSS/JS health from 0 to 10">
+  <style>
+    text { font-family: Impact, 'Arial Black', sans-serif; }
+    .title { font-size: 22px; fill: #FFFFFF; letter-spacing: 1px; }
+    .sub { font: 600 11px 'Segoe UI', Arial, sans-serif; fill: #AAAAAA; }
+    .lang { font: 700 9px 'Arial Black', Impact, sans-serif; fill: #0D0D0D; letter-spacing: 1px; }
+    .num { font-size: 15px; fill: #0D0D0D; }
+    .border { stroke-dasharray: 14 8; animation: march 1.2s linear infinite; }
+    @keyframes march { to { stroke-dashoffset: -44; } }
+    .glow { animation: glow 2.4s ease-in-out infinite; animation-delay: 1.2s; }
+    @keyframes glow { 0%, 100% { opacity: .15; } 50% { opacity: .55; } }
+    .shine { animation: shine 3.6s cubic-bezier(.6,0,.4,1) infinite; animation-delay: 1.2s; }
+    @keyframes shine { 0% { transform: translateX(-160px); } 55%, 100% { transform: translateX(560px); } }
+    .bullet { animation: load 3.6s ease-in-out infinite; animation-delay: 1.2s; transform-box: fill-box; transform-origin: center; }
+    @keyframes load { 0%, 100% { transform: translateX(0); } 45% { transform: translateX(-4px); } 52% { transform: translateX(6px); } 60% { transform: translateX(0); } }
+    .arrow { animation: nudge 1s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateX(0); opacity: .6; } 50% { transform: translateX(6px); opacity: 1; } }
+  </style>
+  <defs>
+    <clipPath id="c"><rect x="3" y="3" width="404" height="78" rx="10"/></clipPath>
+    <linearGradient id="s" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="404" height="78" rx="10" fill="#0D0D0D"/>
+  <rect class="glow" x="3" y="3" width="404" height="78" rx="10" fill="#FF2E88"/>
+  <g clip-path="url(#c)">
+    <polygon class="shine" points="0,0 60,0 30,84 -30,84" fill="url(#s)"/>
+  </g>
+  <rect class="border" x="3" y="3" width="404" height="78" rx="10" fill="none" stroke="#FF2E88" stroke-width="2"/>
+  <g class="bullet">
+    <path d="M16,30 L46,30 Q58,30 62,42 Q58,54 46,54 L16,54 Z" fill="#FFD400"/>
+    <rect x="16" y="30" width="8" height="24" fill="#FF2E88"/>
+    <text x="28" y="48" class="num">05</text>
+  </g>
+  <text x="76" y="38" class="title">WEB DOCTOR</text>
+  <text x="76" y="58" class="sub">CLI that scores HTML/CSS/JS health from 0 to 10</text>
+  <rect x="76" y="64" width="82" height="12" rx="2" fill="#FF2E88"/>
+  <text x="82" y="73" class="lang">TYPESCRIPT</text>
+  <g class="arrow"><path d="M382,32 L396,42 L382,52 Z" fill="#FF2E88"/></g>
+</svg>
