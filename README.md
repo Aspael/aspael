@@ -50,7 +50,7 @@
 | **Class** | Systems Analysis & Development |
 | **Likes** | Well-crafted prompts, grounded answers, quiet nights |
 | **Dislikes** | Hallucinations, unevaluated models, context overflow |
-| **Night Owl Rank** | ★★★★★ |
+| **Despair Rank** | ★★★★★ |
 
 </td>
   </tr>
